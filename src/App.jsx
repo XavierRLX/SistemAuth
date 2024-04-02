@@ -1,11 +1,11 @@
 import './App.css';
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage/index';
+
+import AppRoutes from "./pages/AppRoutes";
 
 
 function App() {
   return (
-      <Lo/>
+      <AppRoutes/>
       );
 }
 

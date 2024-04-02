@@ -10,7 +10,7 @@ const LoginPage = () => {
     }
     return (
         <div id="login">
-            <h1 className="title">Login do Sistema</h1>
+            <h1 className="title">Login</h1>
             <form onClick={handleSubmit} className="form">
                 <div className="field">
                     <label htmlFor="email">Email:</label>

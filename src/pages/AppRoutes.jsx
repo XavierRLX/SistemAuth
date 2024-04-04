@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import HomePage from './HomePage/index';
 import LoginPage from './LoginPage/index';
 
+import { AuthContext  } from "../contexts/auth";
+
 const AppRoutes = () =>{
     return(
         <Router>
